@@ -490,7 +490,7 @@ nav ul li .orang {
         width: 255px;
         height: 354px;
         position: absolute;
-        right: -78px;
+        right: -84px;
         top: 291px;
     }
 
@@ -500,7 +500,7 @@ nav ul li .orang {
 }
 
 /* End quality */
-
+/* start choose */
 .choose {
     background: linear-gradient(to bottom right,
             rgb(19%, 4%, 32%),
@@ -542,7 +542,7 @@ nav ul li .orang {
     rgb(24%, 9%, 30%),
     rgb(25%, 10%, 29%),
     rgb(25%, 10%, 30%));
-    margin: 0 0 20px;
+    margin: 50px 0 20px;
     position: relative;
     border-radius: 13px;
 }
@@ -559,7 +559,7 @@ nav ul li .orang {
     rgb(24%, 9%, 30%),
     rgb(25%, 10%, 29%),
     rgb(25%, 10%, 30%));
-    margin: 0 0 20px;
+    margin: 50px 0 20px;
     position: relative;
     border-radius: 13px;
 }
@@ -595,3 +595,98 @@ nav ul li .orang {
     margin: 0 10px;
     font-size: 15px;
 }
+/* End choose */
+/* start live */
+.live{
+      background: linear-gradient(to top right,
+            rgb(19%, 4%, 32%),
+            rgb(20%, 5%, 33%),
+            rgb(19%, 4%, 32%),
+            rgb(19%, 4%, 32%),
+            rgb(20%, 5%, 33%),
+            rgb(22%, 6%, 32%),
+            rgb(23%, 7%, 31%),
+            rgb(24%, 8%, 31%),
+            rgb(24%, 9%, 31%),
+            rgb(24%, 9%, 30%),
+            rgb(25%, 10%, 29%),
+            rgb(25%, 10%, 30%),
+            rgb(25%, 11%, 29%),
+            rgb(26%, 12%, 29%),
+            rgb(25%, 13%, 26%),
+            rgb(23%, 12%, 24%),
+            rgb(26%, 12%, 29%));
+    position: relative;
+}
+.live-gred{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+    justify-items: center;
+}
+.live-gred .box-live{
+    position: relative;
+    margin: 50px 0 30px;
+   
+}
+.live-gred .box-live .live-img{
+    position: absolute;
+    z-index: 2;
+    top :0;
+}
+.live-gred .box-live .live-img h2{
+    color: floralwhite;
+    text-align: center;
+    width: 240px;
+    top: 210px;
+    position: absolute;
+}
+.live-gred .box-live .live-img p{
+    position: absolute;
+    top: 259px;
+    left: 173px;
+    color: white;
+  
+}
+.live-gred .box-live .live-img button{
+    position: absolute;
+    top: 312px;
+    left: 50%;
+    transform: translate(50%, 3px);
+    border: 1px solid #ce5f1e;
+    color: #ce5f1e;
+    background-color: transparent;
+    padding: 3px 20px;
+    border-radius: 37px;
+}
+
+
+.live-gred .box-live img{
+  width: 240px;
+    height: 352px;
+    border-radius: 50px;
+    position: relative;
+}
+.live-gred .box-live::after{
+    content: "";
+    background-color: rgb(0, 0, 0,60%);
+    width: 240px;
+    height: 126px;
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    border-radius: 0 0 50px 50px;
+}
+.live-gred .box-live .live-img
+{
+  overflow:visible;
+    transition: 0.3s;
+}
+
+.live-gred .box-live .live-img img{
+    width: 50px;
+    height: 50px;
+    top: 259px;
+    left: 16px;
+
+}
+/* End live */
