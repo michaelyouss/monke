@@ -663,7 +663,7 @@ nav ul li .orang {
 .live-gred .box-live img{
   width: 240px;
     height: 352px;
-    border-radius: 50px;
+    border-radius: 13px;
     position: relative;
 }
 .live-gred .box-live::after{
@@ -674,7 +674,7 @@ nav ul li .orang {
     position: absolute;
     left: 0;
     bottom: 3px;
-    border-radius: 0 0 50px 50px;
+    border-radius: 0 0 13px 13px;
 }
 .live-gred .box-live .live-img
 {
@@ -690,3 +690,64 @@ nav ul li .orang {
 
 }
 /* End live */
+/* start top */
+.top-seller{
+    background: linear-gradient(to top right,
+    rgb(19%, 4%, 32%),
+    rgb(20%, 5%, 33%),
+    rgb(19%, 4%, 32%),
+    rgb(19%, 4%, 32%),
+    rgb(20%, 5%, 33%),
+    rgb(22%, 6%, 32%),
+    rgb(23%, 7%, 31%),
+    rgb(24%, 8%, 31%),
+    rgb(24%, 9%, 31%),
+    rgb(24%, 9%, 30%),
+    rgb(25%, 10%, 29%),
+    rgb(25%, 10%, 30%),
+    rgb(25%, 11%, 29%),
+    rgb(26%, 12%, 29%),
+    rgb(25%, 13%, 26%),
+    rgb(23%, 12%, 24%),
+    rgb(26%, 12%, 29%));
+position: relative;
+
+}
+
+.top-gred{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+    justify-items: center;
+  
+}
+.top-box{
+    margin-bottom: 50px;
+}
+.top-box img{
+    width: 240px;
+    height: 352px;
+    border-radius: 13px;
+
+}
+.top-seller h2{
+    margin: 0;
+    padding: 50px 89px 30px;
+    color:white;
+}
+.top-seller h2 span{
+    color:#ce5f1e;
+}
+.top-box h3{
+    color: white;
+    margin: 5px 0;
+} 
+.top-box p{
+    color: white;
+    margin: 5px 0;
+}
+.top-box ul li{
+    display: inline-flex;
+    color: white;
+    margin: 5px 0;
+}
+/* End top */
