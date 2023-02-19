@@ -766,7 +766,13 @@ position: relative;
     padding: 50px 89px 30px;
     color:white;
 }
-.top-seller h2 span{
+@media(max-width:767px){
+    .top-seller h2{
+       
+    text-align: center;
+    }
+}
+ .h-top h2 span{
     color:#ce5f1e;
 }
 .top-box h3{
@@ -783,3 +789,20 @@ position: relative;
     margin: 5px 0;
 }
 /* End top */
+/*  */
+
+.h-live h2{
+    margin: 0;
+    padding: 50px 89px 30px;
+    color: white;
+}
+
+.h-live h2 span{
+    color: #ce5f1e;
+}
+@media(max-width:767px){
+    .h-live h2{
+      
+    text-align: center;
+    }
+}
