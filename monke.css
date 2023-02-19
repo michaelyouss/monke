@@ -563,6 +563,14 @@ nav ul li .orang {
     position: relative;
     border-radius: 13px;
 }
+@media(max-width:767px){
+    .choose-gted .pox-a{
+        width:350px;
+    }
+    .choose-gted .pox-b{
+        width:350px;
+    }
+}
 
 .choose-gted i {
     color: white;
@@ -700,7 +708,7 @@ nav ul li .orang {
 .live-gred .box-live .live-img img{
     width: 50px;
     height: 50px;
-    top: 259px;
+    top: 193px;
     left: 16px;
 }
 @media(max-width:767px){
